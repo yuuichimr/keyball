@@ -1,0 +1,12 @@
+  #pragma once
+
+  #ifdef RGBLIGHT_ENABLE
+  #    define RGBLIGHT_EFFECT_STATIC_GRADIENT
+  #endif
+
+  #define TAP_CODE_DELAY 5
+  #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
+  #define AUTO_MOUSE_DEFAULT_LAYER 1
+
+  // 強制的に左側として認識
+  #define MASTER_LEFT
